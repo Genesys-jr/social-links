@@ -4,29 +4,33 @@ import "./index.css";
 
 function App() {
   return (
-    <div className="bg-neutral-900 min-h-screen flex flex-col items-center justify-center ">
-      <div className="bg-neutral-800 flex flex-col justify-center items-center mx-auto text-center w-full max-w-lg rounded-2xl p-6  ">
+    <div className="bg-neutral-900 min-h-screen flex flex-col items-center justify-center px-4 relative">
+      {/* Container */}
+      <div className="bg-neutral-800 flex flex-col justify-center items-center text-center w-full max-w-md rounded-2xl p-6 sm:p-8">
         <Profile />
         <Socials />
       </div>
-      <div className="absolute bottom-0 text-white text-sm p-4">
+
+      {/* Footer */}
+      <footer className="text-white text-xs sm:text-sm text-center mt-6 sm:mt-8">
         Challenge by{" "}
         <a
-          className="underline text-blue-700"
+          className="underline text-blue-500 hover:text-blue-400"
           href="https://www.frontendmentor.io"
           target="_blank"
+          rel="noopener noreferrer"
         >
           Frontend Mentor
         </a>
         . Coded by{" "}
         <a
-          className="underline text-blue-700"
+          className="underline text-blue-500 hover:text-blue-400"
           href="https://github.com/Genesys-jr"
         >
           Amon K. Daniel
         </a>
         .
-      </div>
+      </footer>
     </div>
   );
 }

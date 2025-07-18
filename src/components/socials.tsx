@@ -7,7 +7,7 @@ const Socials = () => {
     { name: "Instagram", url: "https://www.instagram.com" },
   ];
   return (
-    <div className="flex flex-col justify-center items-center space-y-5 p-8">
+    <div className="flex flex-col justify-center items-center space-y-5">
       {socials.map((social, index) => (
         <a
           key={index}

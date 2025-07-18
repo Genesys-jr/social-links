@@ -2,11 +2,11 @@ import profile from "../assets/images/profile.jpeg";
 
 const Profile = () => {
   return (
-    <div className=" flex flex-col items-center p-8">
+    <div className=" flex flex-col items-center ">
       <img
         src={profile}
         alt="profile-image"
-        className="rounded-full object-cover w-40 h-40 mb-4"
+        className="rounded-full object-cover w-40 h-40 "
       />
       <p className="text-white text-4xl font-bold">Jessica Randall</p>
       <p className="text-2xl tracking-tighter text-lime-400">
