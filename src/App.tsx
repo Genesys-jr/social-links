@@ -12,7 +12,7 @@ function App() {
       </div>
 
       {/* Footer */}
-      <footer className="absolute bottom-1.5 text-white text-xs sm:text-sm text-center mt-6 sm:mt-8">
+      <footer className="absolute bottom-1.5 text-white text-xs sm:text-sm text-center ">
         Challenge by{" "}
         <a
           className="underline text-blue-500 hover:text-blue-400"
