@@ -4,7 +4,7 @@ import "./index.css";
 
 function App() {
   return (
-    <section className="bg-neutral-900 min-h-screen flex flex-col items-center justify-center ">
+    <div className="bg-neutral-900 min-h-screen flex flex-col items-center justify-center ">
       <div className="bg-neutral-800 flex flex-col justify-center items-center mx-auto text-center w-full max-w-lg rounded-2xl p-6  ">
         <Profile />
         <Socials />
@@ -27,7 +27,7 @@ function App() {
         </a>
         .
       </div>
-    </section>
+    </div>
   );
 }
 
