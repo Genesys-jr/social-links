@@ -12,7 +12,7 @@ const Socials = () => {
         <a
           key={index}
           href={social.url}
-          className="text-white text-lg hover:bg-lime-400 hover:text-black transition-colors flex justify-center bg-neutral-700 rounded-lg p-4 w-full max-w-xs"
+          className="text-white text-lg hover:bg-lime-400 hover:text-black transition-colors flex justify-center bg-neutral-700 rounded-lg p-4 w-full max-w-xs px-20 "
           target="_blank"
           rel="noopener noreferrer"
         >
